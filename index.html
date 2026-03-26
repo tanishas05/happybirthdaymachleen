@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday! 🎉</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- CONFETTI -->
+<div class="confetti-container" id="confetti"></div>
+
+<!-- HEADER -->
+<header>
+  <div class="title-main">Happy Birthday,</div>
+  <div class="title-main" style="color:#A8D8EA; text-shadow: 4px 4px 0 #3D2B1F, -2px -2px 0 #FFD966;">Tavleen! 🐟</div>
+  <div class="title-sub">aka our beloved Machleen 🐠✨</div>
+  <div class="stars">⭐ 🌟 ✨ 🌟 ⭐</div>
+</header>
+
+<!-- BALLOONS -->
+<div class="balloon-row">
+  <!-- balloon red -->
+  <svg class="balloon" width="60" height="90" viewBox="0 0 60 90">
+    <ellipse cx="30" cy="32" rx="22" ry="28" fill="#FF6B6B" stroke="#3D2B1F" stroke-width="2.5"/>
+    <line x1="30" y1="60" x2="30" y2="88" stroke="#3D2B1F" stroke-width="2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="4" fill="rgba(255,255,255,0.35)" transform="rotate(-30 22 22)"/>
+  </svg>
+  <!-- balloon blue -->
+  <svg class="balloon" width="60" height="90" viewBox="0 0 60 90">
+    <ellipse cx="30" cy="32" rx="22" ry="28" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="2.5"/>
+    <line x1="30" y1="60" x2="30" y2="88" stroke="#3D2B1F" stroke-width="2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="4" fill="rgba(255,255,255,0.35)" transform="rotate(-30 22 22)"/>
+  </svg>
+  <!-- balloon yellow -->
+  <svg class="balloon" width="60" height="90" viewBox="0 0 60 90">
+    <ellipse cx="30" cy="32" rx="22" ry="28" fill="#FFD966" stroke="#3D2B1F" stroke-width="2.5"/>
+    <line x1="30" y1="60" x2="30" y2="88" stroke="#3D2B1F" stroke-width="2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="4" fill="rgba(255,255,255,0.35)" transform="rotate(-30 22 22)"/>
+  </svg>
+  <!-- balloon pink -->
+  <svg class="balloon" width="60" height="90" viewBox="0 0 60 90">
+    <ellipse cx="30" cy="32" rx="22" ry="28" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="2.5"/>
+    <line x1="30" y1="60" x2="30" y2="88" stroke="#3D2B1F" stroke-width="2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="4" fill="rgba(255,255,255,0.35)" transform="rotate(-30 22 22)"/>
+  </svg>
+  <!-- balloon green -->
+  <svg class="balloon" width="60" height="90" viewBox="0 0 60 90">
+    <ellipse cx="30" cy="32" rx="22" ry="28" fill="#B5EAD7" stroke="#3D2B1F" stroke-width="2.5"/>
+    <line x1="30" y1="60" x2="30" y2="88" stroke="#3D2B1F" stroke-width="2"/>
+    <ellipse cx="22" cy="22" rx="6" ry="4" fill="rgba(255,255,255,0.35)" transform="rotate(-30 22 22)"/>
+  </svg>
+</div>
+
+<!-- CHARACTERS -->
+<div class="scene">
+
+  <!-- SNOOPY CARD -->
+<div class="char-card char-card--img" style="border-color:#3D2B1F;">
+  <img src="66b461fcb55044e4935dbe3e12c3f242.jpg" alt="Snoopy" class="char-img">
+</div>
+
+  <!-- CAKE -->
+  <div style="text-align:center; flex:0 0 auto;">
+    <svg class="cake-svg" width="160" height="200" viewBox="0 0 160 200">
+      <!-- plate -->
+      <ellipse cx="80" cy="178" rx="65" ry="12" fill="#E0C9A0" stroke="#3D2B1F" stroke-width="2"/>
+      <!-- bottom tier -->
+      <rect x="18" y="138" width="124" height="42" rx="14" fill="#FF6B6B" stroke="#3D2B1F" stroke-width="2.5"/>
+      <!-- bottom tier frosting drip -->
+      <path d="M18 148 Q30 155 42 148 Q54 141 66 148 Q78 155 90 148 Q102 141 114 148 Q126 155 138 148 Q140 145 142 138 L18 138Z" fill="white" stroke="#3D2B1F" stroke-width="1"/>
+      <!-- bottom tier dots -->
+      <circle cx="40" cy="162" r="5" fill="#FFD966" stroke="#3D2B1F" stroke-width="1.5"/>
+      <circle cx="65" cy="162" r="5" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="1.5"/>
+      <circle cx="90" cy="162" r="5" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="1.5"/>
+      <circle cx="115" cy="162" r="5" fill="#B5EAD7" stroke="#3D2B1F" stroke-width="1.5"/>
+      <!-- top tier -->
+      <rect x="35" y="98" width="90" height="42" rx="12" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="2.5"/>
+      <!-- top tier frosting drip -->
+      <path d="M35 108 Q47 116 59 108 Q71 100 83 108 Q95 116 107 108 Q119 100 125 108 L125 98 L35 98Z" fill="white" stroke="#3D2B1F" stroke-width="1"/>
+      <!-- top tier dots -->
+      <circle cx="58" cy="122" r="4" fill="#FF6B6B" stroke="#3D2B1F" stroke-width="1.5"/>
+      <circle cx="80" cy="122" r="4" fill="#FFD966" stroke="#3D2B1F" stroke-width="1.5"/>
+      <circle cx="102" cy="122" r="4" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="1.5"/>
+      <!-- candles -->
+      <rect x="52" y="72" width="12" height="28" rx="6" fill="#FFD966" stroke="#3D2B1F" stroke-width="2"/>
+      <rect x="74" y="68" width="12" height="32" rx="6" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="2"/>
+      <rect x="96" y="72" width="12" height="28" rx="6" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="2"/>
+      <!-- flames -->
+      <ellipse cx="58" cy="68" rx="5" ry="8" fill="#FF6B6B" opacity="0.9"/>
+      <ellipse cx="58" cy="68" rx="2.5" ry="4" fill="#FFD966"/>
+      <ellipse cx="80" cy="64" rx="5" ry="8" fill="#FF6B6B" opacity="0.9"/>
+      <ellipse cx="80" cy="64" rx="2.5" ry="4" fill="#FFD966"/>
+      <ellipse cx="102" cy="68" rx="5" ry="8" fill="#FF6B6B" opacity="0.9"/>
+      <ellipse cx="102" cy="68" rx="2.5" ry="4" fill="#FFD966"/>
+      <!-- stars around cake -->
+      <text x="8"  y="90"  font-size="18">✨</text>
+      <text x="130" y="90" font-size="18">✨</text>
+    </svg>
+    
+  </div>
+
+  <!-- CAPYBARA CARD -->
+  <div class="char-card char-card--img" style="border-color:#3D2B1F;">
+  <img src="cute-capybara-with-bonnet-birthday-card-vector-55870708.avif" alt="Capybara" class="char-img">
+</div>
+</div>
+
+<!-- PHOTOS SECTION -->
+<div class="photos-section">
+  <div class="photos-grid">
+
+    <!-- PHOTO 1: replace YOUR_IMAGE_URL_1 with your image path/URL -->
+    <div class="photo-slot">
+      <img src="20251108_220008.jpg" alt="photo 1">
+    </div>
+
+    <!-- PHOTO 2 -->
+    <div class="photo-slot">
+      <img src="CC07CD58-85FD-4FD4-A6EC-E0AF1076B7D2.JPG" alt="photo 2">
+    </div>
+
+    <!-- PHOTO 3 -->
+    <div class="photo-slot">
+      <img src="MAIT.jpg" alt="photo 3">
+    </div>
+
+    <!-- PHOTO 4 -->
+    <div class="photo-slot">
+      <img src="IMG-20251106-WA0204.jpeg" alt="photo 4">
+    </div>
+
+    <!-- PHOTO 5 (wide) -->
+    <div class="photo-slot ">
+      <img src="IMG_0643.jpg" alt="photo 5">
+    </div>
+
+    <!-- PHOTO 6 -->
+    <div class="photo-slot">
+      <img src="IMG_0764.jpeg" alt="photo 6">
+    </div>
+
+  </div>
+
+  <!-- MESSAGE: replace the text below with your own message -->
+  <div class="message-box">
+    Happiest birthday Machleen 🐠 🎏.
+    You're finally not a minor 🤩
+    Enjoy your special day to the fullest!
+    I love you so much Machleen 🐠
+    To many more years of friendship, laughter, and unforgettable memories together! 💖
+  </div>
+
+</div>
+
+<!-- SWIMMING FISH for Machleen 🐟 -->
+<svg class="swimming-fish" width="110" height="70" viewBox="0 0 110 70">
+  <!-- tail -->
+  <polygon points="0,20 22,35 0,50" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="2"/>
+  <!-- body -->
+  <ellipse cx="60" cy="35" rx="48" ry="26" fill="#A8D8EA" stroke="#3D2B1F" stroke-width="2.5"/>
+  <!-- belly -->
+  <ellipse cx="62" cy="38" rx="30" ry="15" fill="#D6EFFA"/>
+  <!-- stripes -->
+  <line x1="52" y1="12" x2="52" y2="58" stroke="#3D2B1F" stroke-width="1.5" opacity="0.3"/>
+  <line x1="68" y1="10" x2="68" y2="60" stroke="#3D2B1F" stroke-width="1.5" opacity="0.3"/>
+  <!-- eye -->
+  <circle cx="96" cy="30" r="7" fill="white" stroke="#3D2B1F" stroke-width="2"/>
+  <circle cx="97" cy="30" r="3.5" fill="#3D2B1F"/>
+  <circle cx="98" cy="28" r="1.2" fill="white"/>
+  <!-- mouth smile -->
+  <path d="M106 36 Q108 40 104 42" stroke="#3D2B1F" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- tiny party hat -->
+  <polygon points="96,23 88,8 104,8" fill="#FF6B6B" stroke="#3D2B1F" stroke-width="1.5"/>
+  <circle cx="96" cy="7" r="3" fill="#FFD966" stroke="#3D2B1F" stroke-width="1"/>
+  <!-- fin -->
+  <path d="M55 12 Q65 2 75 12" fill="#7EC8E3" stroke="#3D2B1F" stroke-width="1.8"/>
+  <!-- bubbles -->
+  <circle cx="108" cy="22" r="3" fill="none" stroke="#A8D8EA" stroke-width="1.5"/>
+  <circle cx="112" cy="16" r="2" fill="none" stroke="#A8D8EA" stroke-width="1.2"/>
+</svg>
+
+<svg class="swimming-fish" width="80" height="52" viewBox="0 0 80 52">
+  <polygon points="0,14 16,26 0,38" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="1.8"/>
+  <ellipse cx="44" cy="26" rx="34" ry="20" fill="#FFB3C6" stroke="#3D2B1F" stroke-width="2"/>
+  <ellipse cx="46" cy="29" rx="22" ry="12" fill="#FFD6E4"/>
+  <circle cx="70" cy="22" r="5" fill="white" stroke="#3D2B1F" stroke-width="1.8"/>
+  <circle cx="71" cy="22" r="2.5" fill="#3D2B1F"/>
+  <circle cx="72" cy="21" r="1" fill="white"/>
+  <path d="M76 27 Q78 30 75 32" stroke="#3D2B1F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M40 8 Q48 1 56 8" fill="#F5A0BB" stroke="#3D2B1F" stroke-width="1.5"/>
+  <circle cx="80" cy="16" r="2" fill="none" stroke="#FFB3C6" stroke-width="1.2"/>
+</svg>
+
+
+<script>
+  // ── CONFETTI ──
+  const container = document.getElementById('confetti');
+  const colors = ['#FF6B6B','#FFD966','#A8D8EA','#FFB3C6','#B5EAD7','#C8956C'];
+  const shapes = ['◆','●','★','▲','■'];
+
+  for(let i = 0; i < 55; i++){
+    const piece = document.createElement('div');
+    piece.classList.add('confetti-piece');
+    piece.style.left = Math.random() * 100 + 'vw';
+    piece.style.background = colors[Math.floor(Math.random()*colors.length)];
+    piece.style.animationDuration = (3 + Math.random()*5) + 's';
+    piece.style.animationDelay = (Math.random()*6) + 's';
+    piece.style.width = (8+Math.random()*8)+'px';
+    piece.style.height = (8+Math.random()*12)+'px';
+    piece.style.borderRadius = Math.random()>0.5 ? '50%' : '2px';
+    piece.style.transform = `rotate(${Math.random()*360}deg)`;
+    container.appendChild(piece);
+  }
+
+  // ── HEART CLICK ──
+  const emojis = ['💛','🎉','🐾','🌸','⭐','🎂','✨','🎈','💕','🌟'];
+  document.body.addEventListener('click', (e) => {
+    const el = document.createElement('div');
+    el.classList.add('heart-pop');
+    el.textContent = emojis[Math.floor(Math.random()*emojis.length)];
+    el.style.left = (e.clientX - 20) + 'px';
+    el.style.top  = (e.clientY - 20) + 'px';
+    document.body.appendChild(el);
+    setTimeout(()=> el.remove(), 1300);
+  });
+</script>
+</body>
+</html>
